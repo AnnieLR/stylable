@@ -1,1 +1,0 @@
-export * from './src/stylable-component/stylable-react';

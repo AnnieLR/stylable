@@ -1,55 +1,22 @@
 {
   "name": "stylable",
-  "version": "0.0.1",
-  "description": "",
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
-  "scripts": {
-    "start": "webpack-dev-server --hot --inline",
-    "test": "npm run test:node",
-    "build": "tsc && ncp ./modules ./dist/modules",
-    "test:node": "ts-mocha ./tests/**/*.spec.ts",
-    "typedoc": "typedoc --out documentation --name Stylable --readme none --hideGenerator --excludeExternals --mode modules"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "peerDependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
-    "@types/chai": "^4.0.1",
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^8.0.2",
-    "@types/react": "^15.0.34",
-    "@types/react-dom": "^15.5.1",
-    "chai": "^4.0.2",
-    "glob": "^7.1.2",
-    "mocha": "^3.4.2",
-    "mocha-loader": "^1.1.1",
-    "ncp": "^2.0.0",
-    "ts-loader": "^2.2.0",
-    "ts-mocha": "^1.0.3",
-    "typedoc": "^0.7.1",
-    "typescript": "^2.3.4",
-    "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "camelcase-css": "^1.0.1",
-    "css-selector-tokenizer": "^0.7.0",
-    "kebab-case": "^1.0.0",
-    "postcss": "^6.0.3",
-    "postcss-js": "^1.0.0",
-    "postcss-nested": "^2.0.2",
-    "stylis": "^3.1.9",
-    "unistyle-flat": "^1.1.1"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
   },
-  "files": [
-    "dist",
-    "src",
-    "react.js",
-    "react.d.ts"
-  ]
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://wixplosives.github.io/stylable",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
 }
