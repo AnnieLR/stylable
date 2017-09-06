@@ -1,22 +1,19 @@
 
-![](./branding/logo/PNG/96-logo-horizontal.png)
-
-# Stylable - CSS for Components
+![Stylable CSS for Components](./branding/logo/PNG/96-logo-horizontal.png)
 
 **Stylable** enables you to build reusable, highly-performant components. Each component exposes a style API that maps its internal parts so you can reuse components across teams without sacrificing stylability.
 
 * Scopes styles to components so they don't "leak" and clash with other styles.
-* Provides a style API to enable abstracting the internal structure of a component so that it can be styled externally. 
-* Uses themes so you can apply a different look and feel to the same components across your web application.
-* Enables you to create, reuse and style pseudo-classes and pseudo-elements.
+* Enables custom pseudo-classes and pseudo-elements that abstract the internal structure of a component so that it can be styled externally.
+* Uses themes so you can apply a different look and feel across your web application.
 At build time, the preprocessor converts the **Stylable** CSS into flat, static, valid vanilla CSS that works cross-browser.
 
 Learn more in our [Documentation Center]().
 Or read our story [here](../usefulInfo/overview.md) in GitHub.
 
-## Code Example
+<## Code Example
 
-*Ido to add really cool code example*
+*Ido to add really cool code example*>
 
 ## Installation
 
@@ -39,10 +36,10 @@ https://github.com/wixplosives/stylable-integration
 
 **Stylable** includes a rich [component library](https://github.com/wix/stylable-components) for out-of-the-box use.
 
-## Contributing
+<## Contributing
 
-Read our [contributing guidelines]() for details on our code of conduct, and the process for submitting pull requests. *Need guideline doc from Bruce*
+Read our [contributing guidelines]() for details on our code of conduct, and the process for submitting pull requests. *Need guideline doc from Bruce*>
 
 ## License
 
-*??? Arnon ???*
+Copyright (c) 2017 Wix.com Ltd. All Rights Reserved. Use of this source code is governed by a BSD-style license that can be found in the LICENSE file in the root of the source tree.
